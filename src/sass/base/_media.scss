@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    .promo {
+        .header{
+            justify-content: space-around;
+        }
+        .promo__wrapper {
+            align-items: center;
+        }   
+    }
+    .advantages {
+        .advantages__wrapper {
+            justify-content: space-around;
+        }
+    }
+    
+}
+@media (max-width:1200px) {
+    .promo {
+        .promo__link {
+            margin-top: 30px;
+        }
+    }
+    .advantages {
+        &__text {
+            max-width: 210px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            &__logo {
+                width: 32%;
+            }
+            .button {
+                width: 100%; 
+            }
+            &__contacts {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .advantages {
+        .advantages__item {
+            max-width: 160px;
+        }
+        .advantages__subtitle {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        .header {
+            &__logo {
+                width: 50%;
+            }
+            .button {
+                width: 95%;
+                font-size: 10px;
+            }
+            &__contacts {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+        .header__official {
+            display: none;
+        }
+        .promo__header {
+            font-size: 23px;
+        }
+        .promo__subheader {
+            font-size: 13px;
+        }
+        .promo__icons {
+            justify-content: center;
+            width: 300px;
+        }
+        .button_main {
+            font-size: 14px;
+            width: 250px;
+        }
+        .promo__link {
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+        .title {
+            font-size: 20px;
+        }
+        .advantages__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .advantages__item {
+            img {
+                margin-bottom: 20px;
+            }
+                &:nth-child(2) {
+                    margin-top: 30px;
+                }
+                &:nth-child(3) {
+                    margin-top: 30px;
+                }
+        }
+    }
+
+}
